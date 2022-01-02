@@ -5,4 +5,7 @@ const router = Router();
 const photo = require('./photo.router');
 router.use('/photo', photo);
 
+const search = require('./search.router');
+router.use('/search',search);
+
 module.exports = router;
